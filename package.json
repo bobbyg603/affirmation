@@ -1,0 +1,36 @@
+{
+  "name": "affirmation",
+  "version": "1.0.0",
+  "description": "You can do it",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "ts-node test.ts",
+    "prerelease": "npm run build",
+    "release": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyg603/affirmation.git"
+  },
+  "keywords": [
+    "affirmation",
+    "fetch",
+    "node",
+    "bobbyg603"
+  ],
+  "author": "@bobbyg603",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobbyg603/affirmation/issues"
+  },
+  "homepage": "https://github.com/bobbyg603/affirmation#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
